@@ -1,0 +1,159 @@
+body, html {
+    padding: 0;
+}
+
+* {
+    margin-top: 20px; 
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+nav {
+    text-align: center;
+
+}
+
+.minhee {
+    width: 300px;
+    border-radius: 50% 50%;
+}
+
+body {
+    background-color: #D1B603;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1px;
+}
+
+h2 {
+    font-size: 100px
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 2px;
+    transform-style: preserve-3d;
+}
+
+.secao {
+    margin: 50px;
+    position: relative;
+    height: 100vh;
+    min-height: 700px;
+    transform-style: inherit;
+}
+
+.secao::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -10;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: translateZ(-1px) scale(1.5);
+}
+
+.conteudo {
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    padding: 20px 10px;
+    background-color: #0FB2F2;
+    color: #fff;
+    font-size: 22px;
+    text-align: justify;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 3px 3px 3px #ccc
+}
+
+.static {
+    background: #0FB2F2;
+}
+
+.fundo1::before{
+background: url("img/img2.jpg");
+}
+
+.fundo2::before {
+background: url("img/img3.jpg");
+}
+
+.fundo3::before {
+    background: url("img/img1.jpg")
+}
+
+.fundo4::before {
+    background: url("img/img4.jpg")
+}
+
+.fundo5::before {
+    background: url("img/img5.jpg")
+}
+
+.fundo6::before {
+    background: url("img/img9.jpg")
+}
+
+.fundo7::before {
+    background: url("img/img8.jpg")
+}
+
+.fundo8::before {
+    background: url("img/img12.jpg")
+}
+
+.fundo9::before {
+    background: url("img/img13.jpg")
+}
+
+.fundo10::before {
+    background: url("img/img14.jpg")
+}
+
+.tudo {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+}
+
+nav {
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+}
